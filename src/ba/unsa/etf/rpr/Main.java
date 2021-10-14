@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         int n;
-        System.out.println("Unesite prirodan broj n: ");
+        System.out.println("Unesite prirodan broj: ");
         Scanner ulaz = new Scanner(System.in);
         n = ulaz.nextInt();
         for (int i = 1; i <= n; i++) {
